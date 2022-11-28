@@ -23,7 +23,7 @@ const HeroSection = () => {
                     <span className='HiThere' style={{ color: '#ea6b3e' }}>Hi there, I'm </span>
                     <motion.h1 whileInView={{ x: ["50%", "0%"], opacity: [0, 0.5, 1] }} className='myName'>Angelo Paredes.</motion.h1>
                     <motion.span whileInView={{ y: ["30%", "0%"], opacity: [0, 0.5, 1] }}>
-                        <p className='profession'>Systems Enginner - Web Developer.</p>
+                        <p className='profession'>Systems Engineer - Web Developer.</p>
                         <p className='textSecondary'>
                             I'm a Systems engineer from Dominican Republic
                             with a passion for creating<br />
