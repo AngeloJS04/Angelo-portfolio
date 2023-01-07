@@ -16,8 +16,8 @@ const ProjectsSection = () => {
     };
     return (
         <div className='sections' id='projects'>
+            <h2 className='h2-about ' style={{display:'block', textAlign:'center'}}>Projects</h2>
             <div className='projectSection'>
-            {/* <h2 className='h2-about'>About Me</h2> */}
                 <Box
                     title='Transport App'
                     description={
