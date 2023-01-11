@@ -1,8 +1,10 @@
 import React from 'react'
-import Spline from '@splinetool/react-spline';
+import dynamic from 'next/dynamic'
+// import Spline from '@splinetool/react-spline';
 import * as animationData from '../../../public/assets/images/touch3.json';
 import Lottie from 'react-lottie';
 import Box from '../app/projectsBox';
+const SplinePhone = dynamic(() => import('@splinetool/react-spline'), { ssr: false })
 
 const ProjectsSection = () => {
 
@@ -49,7 +51,7 @@ const ProjectsSection = () => {
                     </div>
                 </div> */}
                 <div className='transportCanvas'>
-                    <Spline scene="https://prod.spline.design/EktYIi-4qCSOkMcT/scene.splinecode" />
+                    <SplinePhone scene="https://prod.spline.design/EktYIi-4qCSOkMcT/scene.splinecode" />
                 </div>
 
                 
