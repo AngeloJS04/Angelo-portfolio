@@ -13,8 +13,8 @@ const Home = () => {
     <React.Fragment>
           <Layout title="Angelo Dev">
               <HeroSection/>
-              <AboutSection/>
-              <ProjectsSection/>
+              {/* <AboutSection/>
+              <ProjectsSection/> */}
           </Layout>
     </React.Fragment>
   )
