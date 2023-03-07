@@ -15,12 +15,22 @@ const AboutSection = () => {
         <div className='my_skills'>
           <div className='mySelf'>
             <h2 className='h2-about'>About Me</h2>
-            <p ><br />
-              I'm a Systems engineer from Dominican Republic, graduated from OYM University.<br />
-              with 1+ year of experience in web development, I have worked with <br />
-              technologies such as React, Next.js, React Native, Node.js, JavaScript, TypeScript,
-              HTML, CSS, Redux, Vite, Git, Firebase, and more.
-            </p>
+
+
+
+            <div className='' >
+              <Image src='/assets/images/newme.jpg' className='MePhoto' alt='Angelo' width={200} height={200} />
+            </div>
+            <div style={{display:'flex', justifyContent: 'center'}}>
+              <p ><br />
+                I'm a Systems engineer from Dominican Republic, graduated from OYM University.<br />
+                with 1+ year of experience in web development, I have worked with <br />
+                technologies such as React, Next.js, React Native, Node.js, JavaScript, TypeScript,
+                HTML, CSS, Redux, Vite, Git, Firebase, and more.
+              </p>
+
+            </div>
+
           </div>
           <div className='marginLeft'>
             <span className='spanSkill'>Skills</span>
@@ -38,9 +48,7 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-        <div className='' >
-          <Image src={'/assets/images/unnamed.jpg'} className='MePhoto' width={300} height={400} alt={'Angelo-paredes'} />
-        </div>
+
 
       </div>
     </div>

@@ -11,11 +11,13 @@ import ProjectsSection from '../components/projects/projects'
 const Home = () => {
   return (
     <React.Fragment>
-          <Layout title="Angelo Dev">
-              <HeroSection/>
-              {/* <AboutSection/>
-              <ProjectsSection/> */}
-          </Layout>
+      <Layout title="Angelo Dev">
+        <HeroSection />
+        <AboutSection />
+        {/* <div style={{marginTop:'40rem'}}> */}
+          <ProjectsSection />
+        {/* </div> */}
+      </Layout>
     </React.Fragment>
   )
 
