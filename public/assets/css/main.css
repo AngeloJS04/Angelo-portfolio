@@ -43,13 +43,12 @@ body {
 .sections:nth-of-type(1) {
     margin-top: 100px;
 
-
 }
 
 .heroSection {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    /* margin-top: 1rem; */
     /* margin: 5rem */
 }
 

@@ -18,8 +18,8 @@ const HeroSection = () => {
     const widthWindow = UseGetWindowsSize()
     const [sizes, setSizes] = React.useState({ width: 0, height: 0 })
     const [effect, setEffect] = React.useState(['50%', '0%'])
-  
-    
+
+
     useEffect(() => {
         if (widthWindow === 0) return;
         if (widthWindow < 768) {
@@ -34,23 +34,23 @@ const HeroSection = () => {
 
 
     return (
-        <div className='sections heroSection' id='home'>
+        <div className='sections heroSection' id='home' style={{ height: '100vh' }}>
 
             <div className='introduction' >
                 <div>
                     <span className='HiThere' style={{ color: '#ea6b3e' }}>Hi there, I'm </span>
-                    <h1 className='myName'>Angelo Paredes.</h1>
-                    <span>
-                        <p className='profession'>Systems Engineer - Web Developer.</p>
+                    <motion.h1 whileInView={{ x: ["50%", "0%"], opacity: [0, 0.5, 1] }} className='myName'>Angelo Paredes.</motion.h1>
+                    <motion.span whileInView={{ y: ["30%", "0%"], opacity: [0, 0.5, 1] }}>
+                        <p className='profession'>Systems Enginner - Web Developer.</p>
                         <p className='textSecondary'>
                             I'm a Systems engineer from Dominican Republic
-                            with a passion for creating
-                            beautiful and functional websites,<br />
-                            specializing in building  exceptional digital <br />experiences. Currently, I’m focused on building accessible web sites.
+                            with a passion for creating<br />
+                            beautiful and functional websites,
+                            specializing in building <br /> exceptional digital experiences. Currently, I’m focused on building accessible web sites.
                         </p>
-                    </span>
-                    <div
-                      
+                    </motion.span>
+                    <motion.div
+                        whileInView={{ y: ["-50%", "0%"], opacity: [0, 0.5, 1] }}
                         className="contentButtoms"
                     >
                         <Link href="https://www.linkedin.com/in/angelo-paredes-861887211/" className='primaryHeroButtom' target="_blank">
@@ -61,7 +61,7 @@ const HeroSection = () => {
                             <Image src="/assets/heroIcons/github.svg" width={20} height={20} alt="angelo" />
                             <p style={{ marginLeft: '0.4rem' }}>GitHub</p>
                         </Link>
-                    </div>
+                    </motion.div>
 
                 </div>
             </div>
