@@ -18,14 +18,14 @@ const ProjectsSection = () => {
     };
     return (
         <div className='sections' id='projects'>
-            <h2 className='h2-about ' style={{display:'block', textAlign:'center'}}>Projects</h2>
+            <h2 className='h2-about ' style={{ display: 'block', textAlign: 'center' }}>Projects</h2>
             <div className='projectSection'>
                 <Box
                     title='Transport App'
                     description={
-                        `It’s a mobile app about the transportation in Santo Domingo,
-                        Dominican Republic. Where the user can see the bus running in real time and recharged
-                        cards no matter what time. You can check the code on my
+                        `Application developed using React Native that aims to enhance the public transportation experience in the Dominican Republic.
+                         The application provides real-time information about train and bus schedules, enabling users to plan their trips and avoid unnecessary 
+                         waiting times. You can check the code on my
                      `
                     }
                     repo={`TransportRD`}
@@ -51,12 +51,15 @@ const ProjectsSection = () => {
                     </div>
                 </div> */}
                 <div className='transportCanvas'>
-                    <SplinePhone scene="https://prod.spline.design/EktYIi-4qCSOkMcT/scene.splinecode" />
+                    <SplinePhone scene="https://prod.spline.design/EktYIi-4qCSOkMcT/scene.splinecode" 
+                    
+                    
+                    />
                 </div>
 
-                
+
             </div>
-            
+
             {/* <div className="projectSection">
             <Box
                     title='Transport App'
