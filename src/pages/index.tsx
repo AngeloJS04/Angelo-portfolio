@@ -15,7 +15,7 @@ const Home = () => {
         <HeroSection />
         <AboutSection />
         {/* <div style={{marginTop:'40rem'}}> */}
-          <ProjectsSection />
+          {/* <ProjectsSection /> */}
         {/* </div> */}
       </Layout>
     </React.Fragment>

@@ -17,8 +17,8 @@ const Header = () => {
 
 
                                 <a href='#about' className='headerlink'>About</a>
-                                <a href='#projects' className='headerlink'>Projects</a>
-                                <a className='headerlink'>Contact</a>
+                                {/* <a href='#projects' className='headerlink'>Projects</a>
+                                <a className='headerlink'>Contact</a> */}
                             </ul>
                         </nav>
                     </div>
